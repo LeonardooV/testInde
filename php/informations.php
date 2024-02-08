@@ -23,7 +23,7 @@ $result = $db->query($sql);
 
 
 $q = @$_GET["q"];
-$sql = "SELECT * FROM `informations` WHERE salary_chf > 30000  AND job_title LIKE '%{$q}%' ORDER BY salary_chf DESC ";
+$sql = "SELECT * FROM `informations` WHERE salary_chf > 5000  AND job_title LIKE '%{$q}%' ORDER BY salary_chf DESC ";
 $result = $db->query($sql);
 
 

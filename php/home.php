@@ -10,10 +10,8 @@
 
 <nav>
     <ul>
-        <li><a href="informations.php">Informations</a></li>
+        <li><a href="informations.php">S'informer maintenant</a></li>
 
 </nav>
-<nav>
-    <ul>
-        <li><a href="actor.html">Acteurs</a></li>
+
 

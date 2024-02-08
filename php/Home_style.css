@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid #ffc4c4;
+    transition: background-color 0.3s, color 0.3s; /* Ajout de transition pour background-color et color */
+}
+
+
+
+ul li {
+    display: inline;
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    font-stretch: revert;
+}
+nav:hover {
+    background-color: rgba(220, 186, 186, 0.4);
+    color: #000000; /* Change la couleur du texte lorsque le bouton est survolé */
+}
+

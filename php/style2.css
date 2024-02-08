@@ -1,0 +1,38 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+
+}
+
+th {
+    background-color: rgba(255,175,175,0.58);
+}
+/*li.nav2:hover {
+    background-color: #333;
+    border-radius: 20px;
+
+}*/
+
+nav.nav2 {
+    background-color: #333;
+    padding: 10px;
+    margin-left: 800px;
+    margin-right: 900px;
+    border-radius: 20px;
+    border: 2px solid #ffc4c4;
+    transition: background-color 0.3s, color 0.3s; /* Ajout de transition pour background-color et color */
+}
+
+nav.nav2:hover {
+    background-color: rgba(220, 186, 186, 0.4);
+    color: #000000; /* Change la couleur du texte lorsque le bouton est survolé */
+}
